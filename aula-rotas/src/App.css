@@ -1,5 +1,36 @@
-#root {
-  max-width: 1280px;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1e1e1;
+
+}
+
+.menuBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #0c0b0b;
+  font-family:sans-serif;
+}
+
+.menuBar a {
+  color: white;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.menuTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: 25px;
 }
