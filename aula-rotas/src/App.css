@@ -33,3 +33,22 @@ body {
   width: 30px;
   height: 25px;
 }
+
+.cartButton {
+  background: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.cartCount {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
