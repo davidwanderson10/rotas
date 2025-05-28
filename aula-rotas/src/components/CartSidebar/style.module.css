@@ -16,6 +16,11 @@
   position: relative;
 }
 
+.sidebar ul {
+  list-style: none;
+  padding: 10px;
+}
+
 .close {
   position: absolute;
   top: 10px;

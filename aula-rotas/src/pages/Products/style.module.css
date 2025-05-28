@@ -3,3 +3,26 @@
     padding-right: 320px; /* espaço para o carrinho lateral */
   }
   
+.active {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.categories button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background-color: rgb(32, 176, 0);
+}

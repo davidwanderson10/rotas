@@ -17,7 +17,7 @@ export default function CartSidebar({ cartItems, closeCart }) {
         ) : (
         <ul>
             {cartItems.map((item, index) => (
-              <li key={index}>{item.name} - {item.price}</li>
+              <li key={index}> <img src={item.image} alt={item.name} style={{width: '30%'}}/> <br></br>{item.name} - {item.price}</li>
             ))}
         </ul>
         )}
